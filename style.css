@@ -1,0 +1,10 @@
+@keyframes changeColor {
+    0% {color: red;}
+    50% {color: blue;}
+    100% {color: red;}
+}
+
+h1 {
+    animation: changeColor 2s;
+    animation-iteration-count: infinite;
+}
